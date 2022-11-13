@@ -1,0 +1,160 @@
+{{Navigat_tl   = 
+}}
+
+==Navigation==
+{{Valkyrie Navbox}}
+[[Category:Honkai Impact 3 Wiki]]ion Tabs|battlesuit}}
+{{Battlesuit Introduction
+|character      = Raiden Mei
+|battlesuit     = Crimson Impulse
+|sort           = 1
+|version        = 1.8
+|rank           = B
+|type           = BIO
+|core_strengths = Physical, Bleed, Burst, Time Mastery
+|profile        = Melee DPS.
+Displacement skills.
+Stable small AOE DMG.
+|unlock_cost    = {{currency|Crimson Impulse Fragment|10}}
+|evolve_cost    = {{currency|Crimson Impulse Fragment|370}}
+|b-a_cost       = {{currency|Crimson Impulse Fragment|20}}
+|a-s_cost       = {{currency|Crimson Impulse Fragment|50}}
+|s-ss_cost      = {{currency|Crimson Impulse Fragment|100}}
+|ss-sss_cost    = {{currency|Crimson Impulse Fragment|200}}
+}}
+\'\'\'Crimson Impulse\'\'\' is a playable [[battlesuit]] in \'\'Honkai Impact 3rd\'\'. 
+
+She is easy to handle and has high damage output against shield-broken elites. Has simple QTE trigger conditions.
+
+==Skills==
+{{Battlesuit Skills
+|shared = Gyakushinn Miko
+
+|leader = Spirit of Loyalty
+|leaderEffect = When Combo Hit Count exceeds \'\'\'20\'\'\', team gains \'\'\'10%\'\'\' Physical DMG.
+|leaderMiddle = Spirit of Loyalty
+|leaderMiddleImage = Survival 1
+|leaderMiddleEffect = Increases the team\'s Physical DMG by <span class="inc">18%</span> when Combo Hit Count exceeds \'\'\'20\'\'\'.
+|leaderMiddleUnlock = A
+|leaderMiddleShared = yes
+
+|special = Combo: Whirling Petals
+|specialEffect = Soaring whirlwind slash that knocks surrounding enemies airborne.
+Whirling Slash: \'\'\'7\'\'\' × \'\'\'60%\'\'\' ATK of Physical DMG.
+|specialTop = QTE: Iaido Whirlwind
+|specialTopImage = Switch 3
+|specialTopEffect = QTE: Switch entry unleashes an Insta-Slash.
+QTE: Triggered upon shieldbreak or when an enemy is knocked airborne to launch Storm Slasher and deal \'\'\'225%\'\'\' + <span class="inc">400%</span> ATK of Physical DMG.
+|sepcial1Shared = yes
+|specialMiddle = Airborne Whirlwind
+|specialMiddleImage = Enhance 1
+|specialMiddleEffect = Triggers a Combo ATK by tap-and-holding the [ATK] button during any Basic ATK.
+|specialBottom = Double Whirlwind
+|specialBottomImage = Enhance 3
+|specialBottomEffect = Tap the [ATK] button during Combo ATK to unleash \'\'\'1\'\'\' more Combo ATK. DMG dealt equals <span class="inc">100.0%</span> of the \'\'\'1st\'\'\' hit of the \'\'\'1st\'\'\' Combo ATK.
+|specialBottomUnlock = SS
+
+|passive = Passive
+|passiveImage = Raiden Mei Passive
+|passiveEffect = Passive bonuses apply automatically.
+|passiveTop = Piercing Blade
+|passiveTopImage = Damage 1
+|passiveTopEffect = Increases Crit Rate by <span class="inc">20.0%</span> and Crit DMG by <span class="inc">30.0%</span> against an enemy with breached elite shield.
+|passiveTopShared = yes
+
+|ultimate = Amaterasu
+|ultimateEffect = Activates Valkyrie SP burst to unleash a forward slash.
+Amaterasu: Deals up to \'\'\'1,150%\'\'\' ATK of Physical DMG.
+
+SP Cost: \'\'\'50\'\'\'
+|ultTop = Soul Power
+|ultTopImage = Damage 1
+|ultTopEffect = Each strike of Amaterasu additionally deals <span class="inc">18.0%</span> ATK of Fire DMG. Can be triggered up to \'\'\'17\'\'\' times.
+|ultMiddle = Spirit Blade
+|ultMiddleImage = Damage 2
+|ultMiddleEffect = Gain \'\'\'15\'\'\' Max SP in battle. Amaterasu costs \'\'\'20\'\'\' more SP, but activates Valkyrie mode after casting, boosting all attacks for <span class="inc">5.0s</span>.
+|ultMiddleUnlock = SS
+|ultBottom = Sakura no Haku
+|ultBottomImage = Damage 3
+|ultBottomEffect = Valkyrie mode deals augmented blade attacks, with each hit dealing additional <span class="inc">20.0%</span> ATK of Physical DMG.
+|ultBottomUnlock = SSS
+
+|evasion = Phantom Blade
+|evasionEffect = Quickly dash to evade enemy attacks. Can be performed twice in a row.
+Time Fracture: Triggers upon an Ultimate Evasion and lasts \'\'\'3s\'\'\'; CD: \'\'\'15s\'\'\'.
+|evasionTop = Insta-Slash
+|evasionTopImage = Enhance 2
+|evasionTopEffect = Triggered by tapping the [ATK] button after evasion. When evasion triggers Time Fracture, Insta-Slash deals additional <span class="inc">150.0%</span> ATK of Physical DMG.
+|evasionMiddle = Inner Shade
+|evasionMiddleImage = Damage 2
+|evasionMiddleEffect = Increases Attack Speed by <span class="inc">20.0%</span> during Time Fracture triggered by own evasion.
+|evasionMiddleUnlock = S
+|evasionMiddleShared = yes
+|evasionBottom = Shadow Razor
+|evasionBottomImage = Survival 1
+|evasionBottomEffect = Shortens CD of Time Fracture by <span class="inc">4.0s</span>.
+|evasionBottomUnlock = S
+|evasionBottomShared = yes
+
+|basic = Gotamashiki
+|basicEffect = Swift penta-slash.
+1st Sequence: \'\'\'100%\'\'\' ATK of Physical DMG.
+2nd Sequence: \'\'\'120%\'\'\' ATK of Physical DMG.
+3rd Sequence: \'\'\'75%\'\'\' ATK of Physical DMG.
+4th Sequence: \'\'\'80%\'\'\' ATK of Physical DMG.
+5th Sequence: \'\'\'250%\'\'\' ATK of AOE Physical DMG.
+|basicTop = Relentless Slash
+|basicTopImage = Damage 1
+|basicTopEffect = Increases Attack Speed by <span class="inc">15.0%</span> when Combo Hit Count exceeds \'\'\'20\'\'\'.
+|basicTopShared = yes
+|basicMiddle = Blood Sakura
+|basicMiddleImage = Damage 2
+|basicMiddleEffect = Basic attacks have a <span class="inc">20.0%</span> chance of bleeding enemies, dealing <span class="inc">32.0</span>Physical DMG every \'\'\'0.5s\'\'\' for <span class="inc">5.0s</span>.
+|basicMiddleUnlock = A
+|basicMiddleShared = yes
+|basicBottom = Night Sakura
+|basicBottomImage = Damage 3
+|basicBottomEffect = Final hit of Basic ATK increases Combo ATK DMG by <span class="inc">20%</span> for <span class="inc">6.0s</span>.
+|basicBottomUnlock = SSS
+}}
+
+==Guides==
+===BBS Equipment Builds===
+{{Battlesuit Build
+|BBSrec = {{weapon|Void Blade|rarity=5}} {{stigmata|Michelangelo|slot=T|rarity=5}} {{stigmata|Planck|slot=M|rarity=5}} {{stigmata|Michelangelo|slot=B|rarity=5}}
+|BBSrec_offensive_ability = 100%
+|BBSrec_functionality = 100%
+|BBSrec_compatibility = 100%
+|BBSun = {{weapon|Void Blade|rarity=5}} {{stigmata|Marco Polo|slot=T|rarity=5}} {{stigmata|Marco Polo|slot=M|rarity=5}} {{stigmata|Marco Polo|slot=B|rarity=5}}
+|BBSun_offensive_ability = 80%
+|BBSun_functionality = 80%
+|BBSun_compatibility = 90%
+|BBStr = {{weapon|Lightning Soul|rarity=4}} {{stigmata|Ryunosuke Akutagawa|slot=T|rarity=4}} {{stigmata|Ryunosuke Akutagawa|slot=M|rarity=4}} {{stigmata|Ryunosuke Akutagawa|slot=B|rarity=4}}
+|BBStr_offensive_ability = 50%
+|BBStr_functionality = 50%
+|BBStr_compatibility = 80%
+}}
+==Other Languages==
+{{Other Languages
+|en      = Crimson Impulse
+|zhs     = 脉冲装·绯红
+|zhs_rm  = Màichōng Zhuāng · Fēihóng
+|zht     = 脈衝裝·緋紅
+|zht_rm  = 
+|zh_tl   = 
+|ja      = 雷脈装・緋紅
+|ja_rm   = Kaminari Myaku Sō・Hikō
+|ja_tl   = Lightning Pulse - Scarlet
+|ko      = 펄스 슈트·비홍
+|ko_rm   = 
+|ko_tl   = 
+|fr      = Impulsion Écarlate
+|fr_tl   = 
+|th      = Crimson Impulse
+|th_rm   = 
+|th_tl   = 
+|vi      = Crimson
+|de      = Karmesin Impuls
+|de_tl   = Carmine Impulse
+|id      = Crimson Impulse
+|id
