@@ -12,10 +12,13 @@ class HondexMeta(ModelMetaclass):
         if cls not in cls._instances:
             cls._instances[cls] = {}
             
-        if name not in cls._instances[cls]:
-            cls._instances[cls][name] = super().__call__(*args, **kwargs)
+        if name in cls._instances[cls]:
+            raise ValueError(f"{name} already exists")
         
-        return cls._instances[cls][name]
+        instance = super().__call__(*args, **kwargs)
+        cls._instances[cls][name] = instance
+        
+        return instance
 
 class HondexModel(BaseModel, metaclass=HondexMeta):
     name : str

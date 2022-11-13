@@ -31,4 +31,22 @@ class t_mediawiki(unittest.TestCase):
             
             print(item.name, print_values)
         
-        pass
+        
+        print(data.getVar("core_strengths"))
+        print(data.getVar("version"))
+        print(data.getVar("rank"))
+        print(data.getVar("type"))
+        print(data.getVar("leader"))
+        print(data.getVar("leaderEffect"))
+        print(data.getVar("special"))
+        print(data.getVar("specialEffect"))
+        print(data.getVar("passive"))
+        print(data.getVar("passiveEffect"))
+        print(data.getVar("ultimate"))
+        print(data.getVar("ultimateEffect"))
+        print(data.getVar("evasion"))
+        print(data.getVar("evasionEffect"))
+        print(data.getVar("basic"))
+        print(data.getVar("basicEffect"))
+        print(data.getVar("shared"))
+        print(data.getVar("profile"))

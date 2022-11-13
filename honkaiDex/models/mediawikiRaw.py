@@ -83,25 +83,17 @@ class MediaWikiRaw:
                     yield subitem
             
     def getVar(self, name : str, default = None):
-        val= self.variables.get(name, None)
-        if val:
-            return val
-        
-        for blob in self.blobs:
-            blob : MediaWikiRawBlob
-            if blob.getVar(name):
-                val = blob.getVar(name, _MISSING)
+        for item in self.ordered_items:
+            if isinstance(item, MediaWikiRawVar) and item.name == name:
+                return item.value
+            elif isinstance(item, MediaWikiRaw):
+                val = item.getVar(name, _MISSING)
                 if val is not _MISSING:
                     return val
                 
-        if hasattr(self, "subcomponents"):
-            for subcomponent in self.subcomponents:
-                subcomponent : MediaWikiRaw
-                val = subcomponent.getVar(name, _MISSING)
-                if val is not _MISSING:
-                    return val
-
         return default
+
+        
 
     
 class MediaWikiRawBlob(MediaWikiRaw):
